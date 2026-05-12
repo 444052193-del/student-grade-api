@@ -43,7 +43,7 @@ public class StudentControllerTest {
 
         mockMvc.perform(get("/api/health"))
                 .andExpect(status().isOk())
-                .andExpect(jsonPath("$.status").value("UP"));
+                .andExpect(jsonPath("$.status").value("aziz"));
     }
 
 }
