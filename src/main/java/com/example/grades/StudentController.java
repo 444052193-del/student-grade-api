@@ -56,7 +56,7 @@ public class StudentController {
 
         logger.info("Health check called");
 
-        return Map.of("status", "UP");
+        return Map.of("status", "aziz");
     }
 
 }
